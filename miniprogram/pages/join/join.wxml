@@ -1,0 +1,18 @@
+<view class="join">
+  <image src='../../images/about.jpg' class="joinBanner"></image>
+  <view class="aboutList" wx:for="{{aboutList}}">
+      <view class="title">
+        <text>{{item.title}}</text>
+      </view>
+      <view class="content">
+        <text>{{item.content}}</text>
+      </view>
+  </view>
+  <view class="qrcode">
+        <image src="../../images/qr_code.jpg"></image>
+  </view>
+  <view class="contactUs">
+    <view class="wechat" >微信咨询</view>
+    <view class="phone">电话咨询</view>
+  </view>
+</view>

@@ -1,0 +1,48 @@
+/* pages/join/join.wxss */
+.join{
+  background-color: #f6f6f6;
+}
+.joinBanner {
+  width: 100%;
+  height: 360rpx;
+}
+.aboutList{
+  padding: 30rpx 20rpx;
+  background-color: #fff;
+  margin-bottom: 13rpx;
+}
+.aboutList .title{
+  color:#305288;
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 20rpx;
+  border-left: 12rpx solid #305288;
+  line-height: 16px;
+}
+.aboutList .content {
+  color: #a7a7a7;
+  margin-top: 30rpx;
+  padding-left: 26rpx;
+}
+.qrcode{text-align: center; background-color: #fff;padding: 50rpx;}
+.qrcode image{width: 300rpx; height: 300rpx;}
+.contactUs{
+  background-color: #fff;
+  padding: 30rpx;
+  margin-top: 15rpx;
+  text-align: center;
+}
+.wechat, .phone{
+  display: inline-block;
+  width: 44%;
+  height: 80rpx;
+  text-align: center;
+  background-color: #2a5c8a;
+  color: #fff;
+  line-height: 80rpx;
+  font-size: 14px;
+  border-radius: 4px;
+}
+.wechat{
+  margin-right: 10px;
+}
